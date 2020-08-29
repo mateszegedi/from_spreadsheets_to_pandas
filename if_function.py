@@ -34,7 +34,7 @@ conditions= [
 # e.g. if you had only one condition, then choices need 1 item,
 # if you had 2, choices need 2 items, etc
 
-choices ["column has values between 1 and 10","column has 0s or 1s"]
+choices=["column has values between 1 and 10","column has 0s or 1s"]
 
 # store the result of the "IF" function as a new column in the dataframe
 # the "default" is the "else", if none of the above set conditions are True
